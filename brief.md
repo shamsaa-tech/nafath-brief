@@ -19,5 +19,23 @@ A responder’s mobile app should keep essential information available locally w
 
 Resource: Build an offline-first app - https://developer.android.com/topic/architecture/data-layer/offline-first
 
+Networking
+
+5G network slicing creates multiple logical networks on shared physical infrastructure. Each slice can be configured for different service needs, such as bandwidth, latency, and security. The operator could provide emergency responders with a dedicated slice designed to prioritize critical traffic and support reliable communication during congestion. However, slicing alone cannot prevent every outage. Capacity planning, continuous monitoring, security controls, and backup connections are still needed to keep the service dependable.
+
+Resource: Network Slicing - https://www.gsma.com/solutions-and-impact/technologies/networks/5g-network-technologies-and-solutions/5g-standalone-networks/network-slicing/
+
+Cybersecurity
+
+‫ Incident response includes preparing for incidents, detecting and analyzing threats, containing their impact, removing the cause, and recovering services. When an attack occurs, the operator should identify affected systems, isolate compromised components when necessary, and preserve evidence. The team should remove the threat, restore trusted systems, check that services work correctly, and monitor for further attacks. Afterward, a review should identify lessons and improve security controls and response plans
+
+Resource: SP 800-61 Rev. 3, Incident Response Recommendations and Considerations for Cybersecurity Risk Management - https://csrc.nist.gov/pubs/sp/800/61/r3/final
+
+Data
+
+A star schema uses a central fact table connected directly to dimension tables, such as date and region. A snowflake schema splits some dimensions into additional related tables to reduce repeated descriptive data. However, this creates more joins and can make reports harder to use. For daily service-usage reports by region, a star schema is usually simpler. Its fact table can store usage totals linked to date and region dimensions.
+
+Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
+
 
 
