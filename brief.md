@@ -37,5 +37,13 @@ A star schema uses a central fact table connected directly to dimension tables, 
 
 Resource: Understand star schema and the importance for Power BI - https://learn.microsoft.com/en-us/power-bi/guidance/star-schema
 
+Misconception in My Track
 
+A common misconception is that a dedicated 5G network slice is a completely separate physical network and guarantees communication during every outage. In reality, network slicing creates logical networks that can share physical infrastructure. Each slice can be configured to meet different service requirements, including latency, bandwidth, and security. However, shared infrastructure can still fail, and coverage problems can still occur. The operator must also plan capacity, monitor performance, and provide backup arrangements. The GSMA resource explains this under the heading “What is Network Slicing?”
+
+Resource: Network Slicing - https://www.gsma.com/solutions-and-impact/technologies/networks/5g-network-technologies-and-solutions/5g-standalone-networks/network-slicing/
+
+ Open Question
+
+‫ I would verify the operator’s latency, availability, and coverage targets for emergency responders and test whether the dedicated slice can meet them during congestion and a major network failure..
 
